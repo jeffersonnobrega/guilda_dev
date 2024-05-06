@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\repos\\Compactador_Solution\\",
+  "WorkspaceRootPath": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EF25D7E-1A0E-4FB4-ABF8-340DDBA1ADAA}|Compactador_Solution\\Compactador_Solution.csproj|c:\\users\\administrador\\source\\repos\\compactador_solution\\compactador_solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8EF25D7E-1A0E-4FB4-ABF8-340DDBA1ADAA}|Compactador_Solution\\Compactador_Solution.csproj|c:\\git\\guilda_dev\\projetos\\dotnet\\compactador_solution\\compactador_solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EF25D7E-1A0E-4FB4-ABF8-340DDBA1ADAA}|Compactador_Solution\\Compactador_Solution.csproj|solutionrelative:compactador_solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Compactador_Solution\\Compactador_Solution\\Program.cs",
+              "DocumentMoniker": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\Program.cs",
               "RelativeDocumentMoniker": "Compactador_Solution\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Compactador_Solution\\Compactador_Solution\\Program.cs",
+              "ToolTip": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\Program.cs",
               "RelativeToolTip": "Compactador_Solution\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T19:52:11.048Z",
               "EditorCaption": ""

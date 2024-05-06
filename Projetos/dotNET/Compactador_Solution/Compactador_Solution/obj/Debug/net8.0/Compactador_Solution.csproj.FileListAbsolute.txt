@@ -1,0 +1,15 @@
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\bin\Debug\net8.0\Compactador_Solution.exe
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\bin\Debug\net8.0\Compactador_Solution.deps.json
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\bin\Debug\net8.0\Compactador_Solution.runtimeconfig.json
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\bin\Debug\net8.0\Compactador_Solution.dll
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\bin\Debug\net8.0\Compactador_Solution.pdb
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\Compactador_Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\Compactador_Solution.AssemblyInfoInputs.cache
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\Compactador_Solution.AssemblyInfo.cs
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\Compactador_Solution.csproj.CoreCompileInputs.cache
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\Compactador_Solution.sourcelink.json
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\Compactador_Solution.dll
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\refint\Compactador_Solution.dll
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\Compactador_Solution.pdb
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\Compactador_Solution.genruntimeconfig.cache
+C:\GIT\guilda_dev\Projetos\dotNET\Compactador_Solution\Compactador_Solution\obj\Debug\net8.0\ref\Compactador_Solution.dll

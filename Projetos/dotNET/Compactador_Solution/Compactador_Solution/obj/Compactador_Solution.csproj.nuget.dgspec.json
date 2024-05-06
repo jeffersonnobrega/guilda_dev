@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\source\\repos\\Compactador_Solution\\Compactador_Solution\\Compactador_Solution.csproj": {}
+    "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\Compactador_Solution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\source\\repos\\Compactador_Solution\\Compactador_Solution\\Compactador_Solution.csproj": {
+    "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\Compactador_Solution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Compactador_Solution\\Compactador_Solution\\Compactador_Solution.csproj",
+        "projectUniqueName": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\Compactador_Solution.csproj",
         "projectName": "Compactador_Solution",
-        "projectPath": "C:\\Users\\Administrador\\source\\repos\\Compactador_Solution\\Compactador_Solution\\Compactador_Solution.csproj",
+        "projectPath": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\Compactador_Solution.csproj",
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\source\\repos\\Compactador_Solution\\Compactador_Solution\\obj\\",
+        "outputPath": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

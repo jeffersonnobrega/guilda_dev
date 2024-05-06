@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Compactador_Solution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17fa52041040612fb014a32777e9e5ec6263bfaf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Compactador_Solution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Compactador_Solution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
