@@ -2,6 +2,8 @@
 
 Este é um programa simples desenvolvido em C# que monitora uma pasta específica em busca de novos arquivos e os compacta em um arquivo único a cada minuto.
 
+[Clique aqui para acessar a documentação do projeto](https://github.com/jeffersonnobrega/guilda_dev/blob/main/Projetos/dotNET/Compactador_Solution/project_documentation.md)
+
 ## Funcionalidades
 
 - Monitoramento contínuo da pasta especificada.
