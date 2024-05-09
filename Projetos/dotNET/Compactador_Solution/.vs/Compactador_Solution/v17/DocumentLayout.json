@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Downloads\\Compactador_Solution_New\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EF25D7E-1A0E-4FB4-ABF8-340DDBA1ADAA}|Compactador_Solution\\Compactador_Solution.csproj|c:\\git\\guilda_dev\\projetos\\dotnet\\compactador_solution\\compactador_solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EF25D7E-1A0E-4FB4-ABF8-340DDBA1ADAA}|Compactador_Solution\\Compactador_Solution.csproj|solutionrelative:compactador_solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E995CBE5-DA71-4CD8-A4D5-5DB68A55DB73}|Compactador_Solution.csproj|c:\\users\\administrador\\downloads\\compactador_solution_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E995CBE5-DA71-4CD8-A4D5-5DB68A55DB73}|Compactador_Solution.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\Program.cs",
-              "RelativeDocumentMoniker": "Compactador_Solution\\Program.cs",
-              "ToolTip": "C:\\GIT\\guilda_dev\\Projetos\\dotNET\\Compactador_Solution\\Compactador_Solution\\Program.cs",
-              "RelativeToolTip": "Compactador_Solution\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAowBIAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Downloads\\Compactador_Solution_New\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Downloads\\Compactador_Solution_New\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:52:11.048Z",
+              "WhenOpened": "2024-05-06T13:13:26.895Z",
               "EditorCaption": ""
             }
           ]
