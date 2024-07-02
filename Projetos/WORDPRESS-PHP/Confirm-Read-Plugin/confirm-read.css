@@ -1,0 +1,22 @@
+/* confirm-read.css */
+#confirm-read-button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#confirm-read-button:hover {
+    background-color: #005177;
+}
+
+.confirm-read-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.confirm-read-list li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,20 @@
+.historicos-toggle {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.historicos-content {
+    display: none;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.resetar-historico-form {
+    margin-top: 10px;
+}
