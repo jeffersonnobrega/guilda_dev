@@ -33,4 +33,4 @@ Este projeto é uma introdução prática ao desenvolvimento de aplicações web
 ## 🚀 Como Usar
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/jeffersonnobrega/guilda_dev/tree/main/Projetos/Loja
