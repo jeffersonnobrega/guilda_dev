@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montador de Barra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Montador de Barra</h1>
+        <form id="montadorForm">
+            <!-- Peso da Barra -->
+            <label>
+                <input type="radio" name="considerarBarra" value="sim" id="considerarSim"> Usar peso da barra (20kg)
+            </label>
+            <label>
+                <input type="radio" name="considerarBarra" value="nao" id="considerarNao"> Não usar peso da barra
+            </label>
+
+            <!-- Peso Alvo -->
+            <div class="input-group">
+                <label for="pesoAlvo">Peso Alvo (em kg):</label>
+                <input type="number" id="pesoAlvo" required>
+            </div>
+
+            <!-- Pesos Disponíveis -->
+            <div id="pesosDisponiveis">
+                <h2>Pesos Disponíveis</h2>
+                <div class="input-group">
+                    <label>Peso (ex: 15.9):</label>
+                    <input type="number" step="0.1" class="pesoInput">
+                    <label>Quantidade de Pares:</label>
+                    <input type="number" min="0" class="quantidadeInput">
+                    <label>
+                        <input type="checkbox" class="unidadeInput"> LB?
+                    </label>
+                </div>
+            </div>
+            <button type="button" id="addPeso">Adicionar Peso</button>
+            <button type="submit">Calcular</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

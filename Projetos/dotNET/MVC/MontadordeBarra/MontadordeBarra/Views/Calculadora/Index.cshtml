@@ -1,0 +1,45 @@
+﻿@model MontadordeBarra.Models.CalculadoraModel
+
+<h1>Calculadora de Barra</h1>
+
+<form method="post" asp-action="Index">
+    <label>Considerar o peso da barra?</label>
+    <div>
+        <input type="radio" id="sim" name="ConsiderarPesoBarra" value="true" asp-for="ConsiderarPesoBarra" />
+        <label for="sim">Sim</label>
+        <input type="radio" id="nao" name="ConsiderarPesoBarra" value="false" asp-for="ConsiderarPesoBarra" checked />
+        <label for="nao">Não</label>
+    </div>
+
+    <div id="pesoBarraContainer" style="display: none;">
+        <label for="PesoBarra">Peso da Barra (em kg):</label>
+        <input type="number" id="PesoBarra" name="PesoBarra" asp-for="PesoBarra" />
+    </div>
+
+    <button type="submit">Avançar</button>
+</form>
+
+@section Scripts {
+    <script>
+        // Seleciona os elementos de entrada para manipulação
+        const simOption = document.getElementById('sim');
+        const naoOption = document.getElementById('nao');
+        const pesoBarraContainer = document.getElementById('pesoBarraContainer');
+
+        // Mostra ou esconde a caixa de peso da barra com base na escolha do usuário
+        function togglePesoBarra() {
+            if (simOption.checked) {
+                pesoBarraContainer.style.display = 'block'; // Exibe o campo
+            } else {
+                pesoBarraContainer.style.display = 'none'; // Oculta o campo
+            }
+        }
+
+        // Adiciona eventos de clique aos botões de rádio
+        simOption.addEventListener('change', togglePesoBarra);
+        naoOption.addEventListener('change', togglePesoBarra);
+
+        // Executa a lógica inicial (caso a página seja recarregada)
+        togglePesoBarra();
+    </script>
+}

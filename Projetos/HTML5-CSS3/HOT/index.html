@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamasutra Position Randomizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kamasutra Position</h1>
+        <br>
+    </header>
+    <main id="main-content">
+        <button id="randomize-button">Sortear Posição</button>  
+        <br>
+        <div class="filters">
+            <h4>Filtros:</h4>
+            <div>
+                <h5>Incluir:</h5>
+                <label><input type="checkbox" value="oral" class="include-checkbox"> Oral</label>
+                <label><input type="checkbox" value="acrobática" class="include-checkbox"> Acrobática</label>
+                <label><input type="checkbox" value="romântica" class="include-checkbox"> Romântica</label>
+                <label><input type="checkbox" value="confortável" class="include-checkbox"> Confortável</label>
+                <label><input type="checkbox" value="dominante" class="include-checkbox"> Dominante</label>
+            </div>
+            <div>
+                <h5>Excluir:</h5>
+                <label><input type="checkbox" value="oral" class="exclude-checkbox"> Oral</label>
+                <label><input type="checkbox" value="acrobática" class="exclude-checkbox"> Acrobática</label>
+                <label><input type="checkbox" value="romântica" class="exclude-checkbox"> Romântica</label>
+                <label><input type="checkbox" value="confortável" class="exclude-checkbox"> Confortável</label>
+                <label><input type="checkbox" value="dominante" class="exclude-checkbox"> Dominante</label>
+            </div>
+        </div>
+        <br>    
+        <div class="container">
+            
+            <div class="image-container">
+                <img id="position-image" src="images/inicio.webp" alt="Bem-vindo ao Kamasutra">
+            </div>
+            <h3 id="position-title">Bem-vindo! Clique para sortear uma posição.</h3>
+            
+        </div>
+        
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

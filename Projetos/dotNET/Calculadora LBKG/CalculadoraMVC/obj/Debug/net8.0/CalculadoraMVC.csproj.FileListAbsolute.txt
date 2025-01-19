@@ -1,0 +1,8 @@
+E:\HUB-DEVELOPER\guilda_dev\Projetos\dotNET\Calculadora LBKG\CalculadoraMVC\obj\Debug\net8.0\CalculadoraMVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\HUB-DEVELOPER\guilda_dev\Projetos\dotNET\Calculadora LBKG\CalculadoraMVC\obj\Debug\net8.0\CalculadoraMVC.AssemblyInfoInputs.cache
+E:\HUB-DEVELOPER\guilda_dev\Projetos\dotNET\Calculadora LBKG\CalculadoraMVC\obj\Debug\net8.0\CalculadoraMVC.AssemblyInfo.cs
+E:\HUB-DEVELOPER\guilda_dev\Projetos\dotNET\Calculadora LBKG\CalculadoraMVC\obj\Debug\net8.0\CalculadoraMVC.csproj.CoreCompileInputs.cache
+E:\HUB-DEVELOPER\guilda_dev\Projetos\dotNET\Calculadora LBKG\CalculadoraMVC\obj\Debug\net8.0\CalculadoraMVC.MvcApplicationPartsAssemblyInfo.cache
+E:\HUB-DEVELOPER\guilda_dev\Projetos\dotNET\Calculadora LBKG\CalculadoraMVC\obj\Debug\net8.0\CalculadoraMVC.RazorAssemblyInfo.cache
+E:\HUB-DEVELOPER\guilda_dev\Projetos\dotNET\Calculadora LBKG\CalculadoraMVC\obj\Debug\net8.0\CalculadoraMVC.RazorAssemblyInfo.cs
+E:\HUB-DEVELOPER\guilda_dev\Projetos\dotNET\Calculadora LBKG\CalculadoraMVC\obj\Debug\net8.0\CalculadoraMVC.sourcelink.json

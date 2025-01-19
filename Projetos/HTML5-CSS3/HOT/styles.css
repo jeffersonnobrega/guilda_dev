@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #6a0dad; /* Roxo */
+    margin-bottom: 20px;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+#position-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#position-title {
+    font-size: 1.2rem;
+    color: #6a0dad; /* Roxo */
+    padding: 10px 0;
+}
+
+#randomize-button {
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#randomize-button:hover {
+    background-color: #570c9d;
+}
+
+.filters {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filters h5 {
+    margin: 5px 0;
+}
+
+.filters label {
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.filter-checkbox {
+    margin-right: 5px;
+}
