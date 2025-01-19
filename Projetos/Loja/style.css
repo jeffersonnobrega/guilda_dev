@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    border: #ff0000 dashed 5px;
+    margin: 30px 0;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 .bi {
+    color: red; /* Define a cor do ícone */
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+  }
+
+  .produto-descricao, .produto-item{
+    font-weight: bold;
+  }
+
+  .produto-item{
+    color: #b20b0b;
+    
+  }
+
+  footer{
+    background-color: #555555;
+    color: #ffffff;
+    padding: 20px;
+  }
