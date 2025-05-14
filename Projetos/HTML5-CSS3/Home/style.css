@@ -1,0 +1,18 @@
+body,
+html {
+  height: 100%; /* Garante que o corpo e o HTML ocupem toda a altura */
+  margin: 0; /* Remove margens padrão */
+
+  background-color: black;
+}
+
+.img-fluid {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
