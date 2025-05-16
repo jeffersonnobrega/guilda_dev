@@ -15,11 +15,17 @@ class Program
 
         };
 
+      
+
         livros[2].Emprestar();
 
         Console.WriteLine("📚 Livros atualmente disponíveis para empréstimo:");
 
         var livrosDisponiveis = livros.Where(l => l.Disponivel).ToList();
+
+                /*Where(...): filtra a lista.
+
+        l => l.Disponivel: expressão lambda que diz "me mostre só os livros cujo Disponivel é true".*/
 
         foreach (var livro in livrosDisponiveis)
         {
@@ -43,5 +49,31 @@ class Program
         {
             Console.WriteLine("❌ Livro não encontrado.");
         }
+
+        
+        
+        List<Livro> livrosEmprestados = livros.Where (l => !l.Disponivel).ToList ();
+        //pegue os livros que não estão emprestados (Diponível = false), e gere uma nova lista (tolist) chamada livrosEmprestados
+        livros = livros.Where(l => l.Disponivel).ToList();
+        //agora sobrescreve a lista original apenas com os livros disponíveis.
+
+        //Exibir livros disponíveis
+        Console.WriteLine("Livros disponíveis para empréstimo:");
+
+        foreach (var livro in livros){
+            livro.ExibirStatus();
+        }
+
+        Console.WriteLine("Livros emprestados e indisponíveis no momento");
+        if (livrosEmprestados.Count > 0) {
+            foreach (var livro in livrosEmprestados){
+                livro.ExibirStatus();
+            }
+        } else {
+            Console.WriteLine("Nenhum livro emprestado no momento.");
+        }
+
+
+
     }
 }
