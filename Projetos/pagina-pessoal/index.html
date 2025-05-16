@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio de Jefferson Nóbrega - Desenvolvedor Junior">
+    <meta name="keywords" content="portfolio, projetos, desenvolvimento web, Jefferson Nóbrega">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Meus Projetos | Jefferson Nóbrega</title>
+</head>
+<body>
+    <header class="header-wrapper">
+        <div class="header">
+            <div class="checkbox-container">
+                <input type="checkbox" id="toggle">
+                <label class="checkbox" for="toggle">
+                    <div class="trace"></div>
+                    <div class="trace"></div>
+                    <div class="trace"></div>
+                </label>
+                <div class="menu"></div>
+                <nav class="menu-items">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./sobre.html">Sobre</a></li>
+                        <li><a href="./projetos.html" class="active">Projetos</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                        <li><a href="./download_curriculo_Jefferson_Nobrega.docx" download>Currículo</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <h1>Jefferson Nóbrega</h1>
+            <h2>Developer Jr.</h2>
+            <div class="social-media">
+                <a href="https://br.linkedin.com/in/jeffersonnobrega" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/jeffersonnobrega" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="projects-container">
+        <section class="projects-intro">
+            <p>Aqui você encontra uma seleção dos meus principais projetos como desenvolvedor.</p>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+        </section>
+
+        <div class="projects-grid">
+            <!-- Projeto 1 -->
+            <article class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Site Pessoal" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Site Pessoal</h3>
+                    <p>Desenvolvimento do meu próprio site portfolio com HTML, CSS e JavaScript.</p>
+                    <ul class="tech-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Ver demonstração">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                        <a href="https://github.com/jeffersonnobrega/meu-portfolio" target="_blank" rel="noopener noreferrer" aria-label="Ver código no GitHub">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Projeto 2 -->
+            <article class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x300" alt="E-commerce" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Loja Virtual</h3>
+                    <p>Plataforma de e-commerce desenvolvida com React e Node.js.</p>
+                    <ul class="tech-list">
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Ver demonstração">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Ver código no GitHub">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Projeto 3 -->
+            <article class="project-card" data-category="mobile">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x300" alt="App de Tarefas" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>App de Tarefas</h3>
+                    <p>Aplicativo mobile para gerenciamento de tarefas diárias.</p>
+                    <ul class="tech-list">
+                        <li>React Native</li>
+                        <li>Firebase</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Ver demonstração">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Ver código no GitHub">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <section class="cta-section">
+        <h2>Interessado no meu trabalho?</h2>
+        <p>Estou disponível para novos projetos e oportunidades.</p>
+        <a href="contato.html" class="cta-button">Entre em contato</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://br.linkedin.com/in/jeffersonnobrega" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/jeffersonnobrega" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:seuemail@example.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p>© 2023 Jefferson Nóbrega. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
