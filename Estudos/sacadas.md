@@ -14,7 +14,7 @@ Este arquivo reúne conceitos fundamentais aprendidos nas Sessões 1, 2 e 3 do p
 | **Propriedade**    | É uma **característica** do objeto. Ex: `Titulo`, `Autor`, `Ano`.                          |
 | **Método**         | É uma **ação** que o objeto pode fazer. Ex: `Emprestar()`, `Devolver()`.                   |
 | **Encapsulamento** | Esconde detalhes e protege o objeto. Usa `private`, `public`, `get`, `set`.                |
-| **Herança**        | É **reaproveitar código** de uma classe base. Ex: `LivroDigital` herda de `Livro`.         |
+| **Herança**        | É **reaproveitar código** de uma classe base. Ex: `LivroFiccao` herda de `Livro`.          |
 | **Polimorfismo**   | Um mesmo método pode se **comportar diferente** em classes diferentes.                     |
 | **virtual**        | Diz: "*esse método pode ser reescrito nas classes filhas*".                                |
 | **override**       | Diz: "*estou reescrevendo esse método herdado da classe base*".                           |
@@ -29,10 +29,23 @@ Este arquivo reúne conceitos fundamentais aprendidos nas Sessões 1, 2 e 3 do p
 | **LINQ**           | É o **"SQL do C#"**, mas direto na linguagem.                                          |
 | **Where**          | Filtra. Só entra quem passa na condição.                                               |
 | **FirstOrDefault** | Pega o primeiro item que bate com a condição (ou `null`).                              |
+| **ToList()**       | Força a execução da consulta LINQ e transforma em uma lista de verdade.                |
+| **Last()**         | Retorna o **último item** de uma lista ou coleção.                                     |
 | **OrderBy**        | Ordena uma coleção.                                                                    |
 | **Count**          | Conta itens que batem com uma condição.                                                |
 | **Select**         | Transforma uma lista em outra coisa (ex: pega só os títulos).                          |
 | **Lambda**         | `l => l.Titulo == "1984"` → forma curta de criar uma função.                           |
+
+---
+
+## 📌 Outras sacadas importantes
+
+| Conceito                          | Sacada / Explicação simples                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------------------|
+| **StringComparison.OrdinalIgnoreCase** | Faz comparação de strings **sem diferenciar maiúsculas e minúsculas**.               |
+| **LivroRaro**                    | Subclasse com comportamento diferente em `Emprestar()` se o estado for "ruim".            |
+| **EstadoConservacao**           | Define se o livro raro está "bom" ou "ruim", afetando a lógica de disponibilidade.         |
+| **Equals + StringComparison**    | Comparar strings com segurança e sem se preocupar com letras maiúsculas/minúsculas.       |
 
 ---
 
@@ -48,4 +61,4 @@ Este arquivo reúne conceitos fundamentais aprendidos nas Sessões 1, 2 e 3 do p
 ---
 
 **Atualizado por:** Jefferson Nóbrega  
-**Projeto:** BibliotecaApp  
+**Projeto:** BibliotecaApp
