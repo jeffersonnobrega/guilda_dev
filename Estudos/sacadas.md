@@ -42,9 +42,7 @@ Este arquivo reúne conceitos fundamentais aprendidos nas Sessões 1, 2 e 3 do p
 
 | Conceito                          | Sacada / Explicação simples                                                                 |
 |----------------------------------|---------------------------------------------------------------------------------------------|
-| **StringComparison.OrdinalIgnoreCase** | Faz comparação de strings **sem diferenciar maiúsculas e minúsculas**.               |
-| **LivroRaro**                    | Subclasse com comportamento diferente em `Emprestar()` se o estado for "ruim".            |
-| **EstadoConservacao**           | Define se o livro raro está "bom" ou "ruim", afetando a lógica de disponibilidade.         |
+| **StringComparison.OrdinalIgnoreCase** | Faz comparação de strings **sem diferenciar maiúsculas e minúsculas**.               |        |
 | **Equals + StringComparison**    | Comparar strings com segurança e sem se preocupar com letras maiúsculas/minúsculas.       |
 
 ---
