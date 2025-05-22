@@ -1,0 +1,35 @@
+## Arquivos do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+bld/
+
+## Arquivos gerados automaticamente
+*.cache
+*.log
+*.nupkg
+*.pdb
+*.min.*
+*.pyc
+
+## Dependências
+[Nn]uget/
+packages/
+
+## Outros
+[Tt]humbs.db
+*.sql
+*.backup
+*.orig
+*~
