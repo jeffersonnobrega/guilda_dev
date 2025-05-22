@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|c:\\temp\\study\\guilda_dev\\projetos\\bibliotecaapp\\livroraro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|solutionrelative:livroraro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|c:\\temp\\study\\guilda_dev\\projetos\\bibliotecaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|c:\\temp\\study\\guilda_dev\\projetos\\bibliotecaapp\\livroraro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|solutionrelative:livroraro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|c:\\temp\\study\\guilda_dev\\projetos\\bibliotecaapp\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|solutionrelative:livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|c:\\temp\\study\\guilda_dev\\projetos\\bibliotecaapp\\livroficcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|c:\\temp\\study\\guilda_dev\\projetos\\bibliotecaapp\\livrodidatico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|solutionrelative:livrodidatico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|c:\\temp\\study\\guilda_dev\\projetos\\bibliotecaapp\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55C958A3-EFBF-4F7D-8B24-32424394E559}|BibliotecaApp.csproj|solutionrelative:livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LivroFiccao.cs",
               "DocumentMoniker": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\LivroFiccao.cs",
               "RelativeDocumentMoniker": "LivroFiccao.cs",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "LivroFiccao.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T18:03:05.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T18:03:05.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LivroDidatico.cs",
               "DocumentMoniker": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\LivroDidatico.cs",
               "RelativeDocumentMoniker": "LivroDidatico.cs",
@@ -55,44 +54,43 @@
               "RelativeToolTip": "LivroDidatico.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T18:02:21.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T18:02:21.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LivroRaro.cs",
               "DocumentMoniker": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\LivroRaro.cs",
               "RelativeDocumentMoniker": "LivroRaro.cs",
               "ToolTip": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\LivroRaro.cs",
               "RelativeToolTip": "LivroRaro.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowCsAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T18:01:59.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBQAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T14:39:44.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\Livro.cs",
               "RelativeDocumentMoniker": "Livro.cs",
               "ToolTip": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\Livro.cs",
               "RelativeToolTip": "Livro.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAmwDMAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T14:41:52.05Z",
               "EditorCaption": ""

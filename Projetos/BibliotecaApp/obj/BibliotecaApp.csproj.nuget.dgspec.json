@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj": {}
+    "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj": {}
   },
   "projects": {
-    "c:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj": {
+    "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj",
+        "projectUniqueName": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj",
         "projectName": "BibliotecaApp",
-        "projectPath": "c:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj",
+        "projectPath": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj",
         "packagesPath": "C:\\Users\\u95074\\.nuget\\packages\\",
-        "outputPath": "c:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\obj\\",
+        "outputPath": "C:\\temp\\study\\guilda_dev\\Projetos\\BibliotecaApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

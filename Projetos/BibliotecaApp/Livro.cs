@@ -7,11 +7,18 @@
         public int Ano { get; private set; }
         public bool Disponivel { get; private set; } = true;
 
+        public bool Emprestado { get; private set; } = false;
+
         // construtor da classe
 
         protected void TornarIndisponivel()
         {
             Disponivel = false;
+        }
+
+        protected void TornarEmprestado()
+        {
+            Emprestado = true;
         }
 
         public Livro(string titulo, string autor, int ano)
@@ -26,6 +33,7 @@
             if (Disponivel)
             {
                 Disponivel = false;
+                Emprestado = true;
             }
             else
             {
@@ -37,7 +45,11 @@
 
         public void Devolver()
         {
-            Disponivel = true;
+            if (Emprestado)
+            {
+                Disponivel = true;
+                Emprestado = false;
+            }
         }
 
         public virtual void ExibirStatus() //virtual para que possa ser sobrescrito

@@ -7,7 +7,6 @@ C:\temp\study\guilda_dev\Projetos\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.G
 C:\temp\study\guilda_dev\Projetos\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.AssemblyInfoInputs.cache
 C:\temp\study\guilda_dev\Projetos\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.AssemblyInfo.cs
 C:\temp\study\guilda_dev\Projetos\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.csproj.CoreCompileInputs.cache
-C:\temp\study\guilda_dev\Projetos\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.sourcelink.json
 C:\temp\study\guilda_dev\Projetos\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.dll
 C:\temp\study\guilda_dev\Projetos\BibliotecaApp\obj\Debug\net8.0\refint\BibliotecaApp.dll
 C:\temp\study\guilda_dev\Projetos\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.pdb

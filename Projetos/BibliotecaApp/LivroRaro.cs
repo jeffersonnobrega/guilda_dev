@@ -14,6 +14,7 @@
             if (estadoConservacao.Equals("ruim", StringComparison.OrdinalIgnoreCase))
             {
                 TornarIndisponivel(); // Já define Disponivel = false
+
             }
         }
 
@@ -32,16 +33,16 @@
         public override void ExibirStatus()
         {
             string status;
-            if (EstadoConservacao.Equals("ruim", StringComparison.OrdinalIgnoreCase))
+            if (!Disponivel && !Emprestado)
             {
-                status = "Indisponível, pois Estado de Conservação é Ruim;";
+                status = $"Indisponível (estado de Conservação: {EstadoConservacao})";
             }
             else
             {
                 status = Disponivel ? "Disponível" : "Emprestado";
             }
             Console.WriteLine($"Título: {Titulo}, Autor: {Autor}, Ano: {Ano} - {status}");
-            Console.WriteLine($"[Raro] Estado de Conservação: {EstadoConservacao}");
+            Console.WriteLine($"[Raro] estado de Conservação: {EstadoConservacao}");
         }
     }
 }
