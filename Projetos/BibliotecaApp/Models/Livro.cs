@@ -1,14 +1,25 @@
-﻿namespace BibliotecaApp
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Runtime.CompilerServices;
+
+namespace BibliotecaApp
 {
     public class Livro
     {
+        private const int NotaMaxima = 5;
         public string Titulo { get; set; } = string.Empty;
         public string Autor { get; set; } = string.Empty;
         public int Ano { get; private set; }
+        public string Editora { get; set; }
+        public string Isbn { get; set; }
+        public string Genero { get; set; }
+        public string EstadoConservacao { get; set; }
+        public byte Nota { get; set; }
+
         public bool Disponivel { get; private set; } = true;
 
         public bool Emprestado { get; private set; } = false;
 
+        
         // construtor da classe
 
         protected void TornarIndisponivel()
@@ -21,11 +32,25 @@
             Emprestado = true;
         }
 
-        public Livro(string titulo, string autor, int ano)
+        public Livro(string titulo, string autor, int ano, string estadoConservacao, int notaMaxima)
         {
             Titulo = titulo;
             Autor = autor;
             Ano = ano;
+            EstadoConservacao = estadoConservacao;            
+
+        }
+
+        public string ObterNotasEmEstrelas()
+        {
+            
+            int notaAtual = Math.Clamp(Nota, 0, NotaMaxima);
+
+            string estrelasCheias = new string('★', notaAtual);
+            //Cria uma string repetindo o caractere '★' o número de vezes indicado pela nota.
+            string estrelasVazias = new string('☆', NotaMaxima - notaAtual);
+
+            return estrelasCheias + estrelasVazias;
         }
 
         public virtual void Emprestar()

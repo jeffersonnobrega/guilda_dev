@@ -2,15 +2,14 @@
 {
     public class LivroRaro : Livro
     {
-        public string EstadoConservacao { get; set; }
+       // public string EstadoConservacao { get; set; }
 
 
 
         public LivroRaro(string titulo, string autor, int ano, string estadoConservacao)
-            : base(titulo, autor, ano)
+            : base(titulo, autor, ano,estadoConservacao)
         {
-            EstadoConservacao = estadoConservacao;
-
+            
             if (estadoConservacao.Equals("ruim", StringComparison.OrdinalIgnoreCase))
             {
                 TornarIndisponivel(); // Já define Disponivel = false
