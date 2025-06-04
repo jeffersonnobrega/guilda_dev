@@ -1,9 +1,10 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
+using BibliotecaApp.Interfaces;
 
-namespace BibliotecaApp
+namespace BibliotecaApp.Models
 {
-    public class Livro
+    public class Livro : ILivro
     {
         private const int NotaMaxima = 5;
         public string Titulo { get; set; } = string.Empty;
@@ -44,7 +45,7 @@ namespace BibliotecaApp
         public string ObterNotasEmEstrelas()
         {
             
-            int notaAtual = Math.Clamp(Nota, 0, NotaMaxima);
+            int notaAtual = Math.Clamp((int)Nota, 0, NotaMaxima);
 
             string estrelasCheias = new string('★', notaAtual);
             //Cria uma string repetindo o caractere '★' o número de vezes indicado pela nota.

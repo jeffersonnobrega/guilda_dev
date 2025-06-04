@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\HUB-DEVELOPER\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj": {}
+    "C:\\temp\\study\\guilda_dev_completo\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj": {}
   },
   "projects": {
-    "E:\\HUB-DEVELOPER\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj": {
+    "C:\\temp\\study\\guilda_dev_completo\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HUB-DEVELOPER\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj",
+        "projectUniqueName": "C:\\temp\\study\\guilda_dev_completo\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj",
         "projectName": "BibliotecaApp",
-        "projectPath": "E:\\HUB-DEVELOPER\\guilda_dev\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj",
-        "packagesPath": "C:\\Users\\pc-home\\.nuget\\packages\\",
-        "outputPath": "E:\\HUB-DEVELOPER\\guilda_dev\\Projetos\\BibliotecaApp\\obj\\",
+        "projectPath": "C:\\temp\\study\\guilda_dev_completo\\Projetos\\BibliotecaApp\\BibliotecaApp.csproj",
+        "packagesPath": "C:\\Users\\u95074\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\study\\guilda_dev_completo\\Projetos\\BibliotecaApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pc-home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\u95074\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
