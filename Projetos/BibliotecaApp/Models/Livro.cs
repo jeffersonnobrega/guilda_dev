@@ -1,17 +1,18 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
+using BibliotecaApp.Interfaces;
 
-namespace BibliotecaApp
+namespace BibliotecaApp.Models
 {
-    public class Livro
+    public class Livro : ILivro
     {
         private const int NotaMaxima = 5;
         public string Titulo { get; set; } = string.Empty;
         public string Autor { get; set; } = string.Empty;
         public int Ano { get; private set; }
         public string Editora { get; set; }
-        public string Isbn { get; set; }
-        public string Genero { get; set; }
+        public string Isbn { get; set; } = string.Empty;
+        public string Genero { get; set; } = string.Empty;
         public string EstadoConservacao { get; set; }
         public byte Nota { get; set; }
 
@@ -32,11 +33,13 @@ namespace BibliotecaApp
             Emprestado = true;
         }
 
-        public Livro(string titulo, string autor, int ano, string estadoConservacao, int notaMaxima)
+        public Livro(string titulo, string autor, int ano, string editora, string isbs, string estadoConservacao, int notaMaxima)
         {
             Titulo = titulo;
             Autor = autor;
             Ano = ano;
+            Editora = editora;
+            Isbn = Isbn;
             EstadoConservacao = estadoConservacao;            
 
         }
@@ -44,7 +47,7 @@ namespace BibliotecaApp
         public string ObterNotasEmEstrelas()
         {
             
-            int notaAtual = Math.Clamp(Nota, 0, NotaMaxima);
+            int notaAtual = Math.Clamp((int)Nota, 0, NotaMaxima);
 
             string estrelasCheias = new string('★', notaAtual);
             //Cria uma string repetindo o caractere '★' o número de vezes indicado pela nota.
